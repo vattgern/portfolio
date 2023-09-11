@@ -1,12 +1,14 @@
 .welcome{
     width: 100%;
-    height: 70vh;
-    padding: 0 10%;
-
+    height: 80vh;
+}
+.welcome .container{
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row;
 }
-.welcome > div{
+.welcome .container div{
     width: 50%;
     height: 100%;
 
@@ -17,7 +19,7 @@
 .welcome__img{
     align-items: center;
 }
-.welcome > div > img{
+.welcome .container > div > img{
     aspect-ratio: 16/9;
 }
 .welcome__info h1{

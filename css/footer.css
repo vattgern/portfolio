@@ -2,6 +2,9 @@ footer{
     width: 100%;
     padding: 5% 10% 0;
 }
+html[data-theme='light'] .footer__links{
+    background-color: var(--bg-1);
+}
 .footer__links{
     width: 100%;
     padding: 2.5% 0;

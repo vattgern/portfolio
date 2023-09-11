@@ -20,89 +20,108 @@
 </head>
 <body>
     <header>
-        <ul>
-            <li>
-                <div class="header__logo">
-                    <img src="./assets/images/Logo.svg" alt="">
-                    <p>lexander</p>
-                </div>
-            </li>
-            <li>
-                <a href="#projects">Проекты</a>
-                <a href="#about">Обо мне</a>
-                <a href="#contacts">Контакты</a>
-            </li>
-            <li>
-                <button class="header__hire">Нанять меня</button>
-                <div class="theme">
-                    <img class="moon" src="./assets/images/Moon.svg" alt="">
-                    <img class="sun" src="./assets/images/Sun.svg" alt="">
-                </div>
-            </li>
-        </ul>
-    </header>
-    <section class="welcome">
-        <div class="welcome__info">
-            <h1>
-                Привет, меня зовут<br>
-                Александр
-            </h1>
-            <h2>FullStack Developer</h2>
-            <a href="#">
-                <img src="./assets/images/Download.svg" alt="">
-                Скачать Резюме
-            </a>
+        <div class="container">
+            <ul>
+                <li>
+                    <div class="header__logo">
+                        <img src="./assets/images/Logo.svg" alt="">
+                        <p>lexander</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="#projects">Проекты</a>
+                    <a href="#about">Обо мне</a>
+                    <a href="#contacts">Контакты</a>
+                </li>
+                <li>
+                    <button class="header__hire">Нанять меня</button>
+                    <div class="theme">
+                        <img class="moon" src="./assets/images/Moon.svg" alt="">
+                        <img class="sun" src="./assets/images/Sun.svg" alt="">
+                    </div>
+                </li>
+                <li class="burgerMenu">
+                    <div class="burgerMenuBlock">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </li>
+            </ul>
         </div>
-        <div class="welcome__img">
-            <img src="./assets/images/Laptop.svg" alt="">
+    </header>
+    <div class="headerMoblie">
+        <ul class="links">
+            <li><a href="#projects">Проекты</a></li>
+            <li><a href="#about">Обо мне</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+        </ul>
+    </div>
+    <section class="welcome">
+        <div class="container">
+            <div class="welcome__info">
+                <h1>
+                    Привет, меня зовут<br>
+                    Александр
+                </h1>
+                <h2>FullStack Developer</h2>
+                <a href="#">
+                    <img src="./assets/images/Download.svg" alt="">
+                    Скачать Резюме
+                </a>
+            </div>
+            <div class="welcome__img">
+                <img src="./assets/images/Laptop.svg" alt="">
+            </div>
         </div>
     </section>
     <section class="projects" id="projects">
-        <div class="projects__header">
-            <h2>Мои Проекты</h2>
-        </div>
-        <div class="projects__body">
-            <div class="project">
-                <div class="project__img"><img src="" alt=""></div>
-                <div class="project__title">
-                    <h3>Title</h3>
+        <div class="container">
+            <div class="projects__header">
+                <h2>Мои Проекты</h2>
+            </div>
+            <div class="projects__body">
+                <div class="project">
+                    <div class="project__img"><img src="" alt=""></div>
+                    <div class="project__title">
+                        <h3>Title</h3>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project__img"><img src="" alt=""></div>
+                    <div class="project__title">
+                        <h3>Title</h3>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project__img"><img src="" alt=""></div>
+                    <div class="project__title">
+                        <h3>Title</h3>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project__img"><img src="" alt=""></div>
+                    <div class="project__title">
+                        <h3>Title</h3>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project__img"><img src="" alt=""></div>
+                    <div class="project__title">
+                        <h3>Title</h3>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project__img"><img src="" alt=""></div>
+                    <div class="project__title">
+                        <h3>Title</h3>
+                    </div>
                 </div>
             </div>
-            <div class="project">
-                <div class="project__img"><img src="" alt=""></div>
-                <div class="project__title">
-                    <h3>Title</h3>
-                </div>
+            <div class="projects__footer">
+                <a href="">
+                    Больше проектов
+                </a>
             </div>
-            <div class="project">
-                <div class="project__img"><img src="" alt=""></div>
-                <div class="project__title">
-                    <h3>Title</h3>
-                </div>
-            </div>
-            <div class="project">
-                <div class="project__img"><img src="" alt=""></div>
-                <div class="project__title">
-                    <h3>Title</h3>
-                </div>
-            </div>
-            <div class="project">
-                <div class="project__img"><img src="" alt=""></div>
-                <div class="project__title">
-                    <h3>Title</h3>
-                </div>
-            </div>
-            <div class="project">
-                <div class="project__img"><img src="" alt=""></div>
-                <div class="project__title">
-                    <h3>Title</h3>
-                </div>
-            </div>
-        </div>
-        <div class="projects__footer">
-            <a href="">
-                Больше проектов
-            </a>
         </div>
     </section>
     <section class="about">
@@ -178,5 +197,6 @@
         </div>
     </footer>
     <script src="./js/theme.js"></script>
+    <script src="./js/burgerMenu.js"></script>
 </body>
 </html>

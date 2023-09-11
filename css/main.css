@@ -42,6 +42,9 @@ body{
     animation: gradient-animation 14s ease infinite;
     background-size: 180% 180%;
 }
+a{
+    text-decoration: none;
+}
 html[data-theme='light'] body{
     background: linear-gradient(300deg, var(--bg-light-1), var(--bg-light-2), var(--bg-light-3));
     color: var(--text-color-light);
@@ -50,6 +53,41 @@ html[data-theme='dark'] body{
     background: linear-gradient(300deg, var(--bg-1), var(--bg-2), var(--bg-3));
     color: var(--text-color);
 }
-a{
-    text-decoration: none;
+.container{
+    max-width: 1200px;
+    height: 100%;
+    padding: 0 2.5%;
+    margin: 0 auto;
+    border: 2px red solid;
+}
+
+@media (max-width: 1250px) {
+    .container{
+        max-width: 1024px;
+    }
+}
+@media (max-width: 1074px) {
+    .container{
+        max-width: 948px;
+    }
+}
+@media (max-width: 1024px) {
+    .container{
+        max-width: 768px;
+    }
+}
+@media (max-width: 924px) {
+    .container{
+        max-width: 624px;
+    }
+}
+@media (max-width: 650px) {
+    .container{
+        max-width: 480px;
+    }
+}
+@media (max-width: 520px) {
+    .container{
+        max-width: 320px;
+    }
 }
