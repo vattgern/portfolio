@@ -41,6 +41,7 @@ body{
     transition: all .4s ease;
     animation: gradient-animation 14s ease infinite;
     background-size: 180% 180%;
+    scroll-behavior: smooth;
 }
 a{
     text-decoration: none;
