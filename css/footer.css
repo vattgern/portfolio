@@ -1,6 +1,7 @@
 footer{
     width: 100%;
-    padding: 5% 10% 0;
+    height: 100%;
+    margin-top: 5%;
 }
 html[data-theme='light'] .footer__links{
     background-color: var(--bg-1);
@@ -33,4 +34,10 @@ html[data-theme='light'] .footer__links{
 }
 .footer__bottom a{
     border-bottom: 2px white solid;
+}
+@media (max-width: 650px) {
+    .footer__links img{
+        width: 35px;
+        height: 35px;
+    }
 }

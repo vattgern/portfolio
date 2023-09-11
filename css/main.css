@@ -58,7 +58,6 @@ html[data-theme='dark'] body{
     height: 100%;
     padding: 0 2.5%;
     margin: 0 auto;
-    border: 2px red solid;
 }
 
 @media (max-width: 1250px) {
