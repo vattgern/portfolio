@@ -65,7 +65,6 @@ html[data-theme='light'] .welcome__info a{
     -moz-box-shadow: 0px 0px 24px 11px rgba(34, 60, 80, 0.43);
     box-shadow: 0px 0px 24px 11px rgba(34, 60, 80, 0.43);
 }
-
 @media (max-width: 1074px) {
     .welcome__info h1{
         font-size: 52px;
